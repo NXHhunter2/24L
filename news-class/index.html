@@ -6,8 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Академия Калашникова</title>
-    <link rel="stylesheet" href="../css/main.css">
-	<link rel="stylesheet" href="../css/naprav.css">
+    <link rel="stylesheet" href="../css/news.css">
     <link rel="stylesheet" href="../fontawesome/css/all.css">
 </head>
 <body>
@@ -15,7 +14,6 @@
     <div class="header_left_hand">
         <i class="fas fa-bars menu_open" onclick="open_menu()"></i>
         <img src="../img/logo_academy.svg" class="logo header_left_hand_inner_block" onclick="location.href = '../index.html'">
-        <div class="page_address header_left_hand_inner_block">Направления</div>
     </div>
     <div class="header_right_hand">
         <i class="far fa-comments header_right_hand_inner_block"></i>
@@ -28,7 +26,7 @@
         <div class="menu">
             <div class="high_name">
                 <div class="high nice-look" onclick="location.href = '../index.html'"><i class="fas fa-th-large high_images"></i>Главная</div>
-                <a class="nice-look" onclick="location.reload()">Направление</a>
+                <a class="nice-look" onclick="location.href = '../courses/index.html'">Направление</a>
                 <a class="nice-look" onclick="location.href = '../tasks/index.html'">Задачи</a>
                 <a class="nice-look" onclick="location.href = '../schedule/index.html'">Расписание</a>
             </div>
@@ -49,68 +47,44 @@
             </div>
         </div>
     </div>
-
-        <div class="cont">
-            <div class="first-module">
-			<section class="naprav">
-                    <div class="it">
-					<img src="../img/it.svg">
-					<h1>АЙТИ</h1>
-					<p>Полное погружение в пространство программирования, новейшие технологии в режиме STAND UP</p>
-					</div>
-                </section>
-				<section class="naprav">
-                    <div class="prom">
-					<img src="../img/prom.svg">
-					<h1>ПРОМДИЗАЙН</h1>
-					<p>Креативное мышление без границ!</p>
-					<p>Узнай, как превратить идею в готовый продукт</p>
-                    <p>на курсе «Промышленный дизайн»</p>
-					</div>
-                </section>
-				<section class="naprav">
-                    <div class="robo">
-					<img src="../img/robo.svg">
-					<h1>РОБОТОТЕХНИКА</h1>
-					<p>Освой современные технологии производства с помощью образовательной программы «Робототехника»</p>
-					</div>
-                </section>
-            </div>
-            <div class="second-module">
-			<section class="naprav">
-                    <div class="mexa">
-					<img src="../img/mexa.svg">
-					<h1>МЕХАТРОНИКА</h1>
-					<p>Научись конструировать производственные линии и узнай как работает каждый механизм.</p>
-					</div>
-                </section>
-				<section class="naprav">
-                    <div class="neiro">
-					<img src="../img/neiro.svg">
-					<h1>НЕЙРО</h1>
-					<p>Искусственный интеллект - это не фантастика из фильма про будущее, это настоящее, которое ты можешь не только изучить, но и изменить.</p>
-					<br>
-					</div>
-                </section>
-				<section id="inside" align="center">
-				<h1> Запись на занятия </h1>
-				<img id="logo_zapisi_na_curs" src="../img/logo_academy.svg">
-				<br>
-				<input type="text" name="first-name" class="button" placeholder="Имя">
-				<br>
-				<input type="text" name="last-name" class="button" placeholder="Фамилия">
-				<br>
-				<input type="text" name="namber" class="button" placeholder="Номер">
-				<br>
-                    <input type="text" name="namber" class="button" placeholder="Название курса(или занятия)">
-                    <br>
-                    <input type="submit"name="submit" class="button" value="Отправить заявку">
-                    <br>
-                </section>
-            </div>
-        </div>
+	<div class="cont">
+        <section class="tasks-name">
+            Новости класса
+        </section>
+		<div class="boxes">
+			<div class="sections">
+				<section>
+				<a class = "date" align="right">22.04.2021, 15:33<br /></a>
+				<a class = "title">Детей эвакуируют из школ Ижевска из-за сообщений о минировании<br /></a>
+				<hr>
+				<a class = "text">Сообщение о том, что неизвестные направляют в школы Ижевска электронные письма о заведомо ложном минировании,
+				появилось в телеграм-канале Темная Удмуртия.<br />
+				Как рассказала корреспонденту «Udm-Info» одна из учителей ижевской школы №24,
+				на адрес школы пришло электронное письмо с сообщением о том, что школа заминирована. 
+				Всех детей и учителей эвакуировали из здания за 5 минут и распустили по домам.<br /></a>
+				<img src = "../img/1.jpg" class = "center-img">
+				<hr>
+				<a class = "Whose-photo">Фото: Юрий Парахин<a/>
+				</section>
+				<section>
+				<a class = "date" align="right">23.04.2021, 11:13<br /></a>
+				<a class = "title">В Ижевске в микрорайоне Юровские дачи и по улице Трудовая пчела скоро появится уличное освещение<br /></a>
+				<hr>
+				<a class = "text">Ижевск. Удмуртия. В Ижевске в микрорайоне Юровские дачи и по улице Трудовая пчела завершены работы
+				по установке новых светильников. Об этом сообщает пресс-служба города.<br /> После обращения местных жителей к главе Ижевска
+				Олегу Бекмеметьеву с просьбой оборудования уличного освещения, в декабре 2020 года в микрорайоне Юровские дачи начались работы. 
+				Установили источник электроснабжения, линии освещения, 6 светильников и выполнили монтаж 178 метров провода воздушных линий.<br />
+				Теперь предстоит закрепить новое городское имущество за муниципальным предприятием «Горсвет» и включить его в контракт на обеспечение наружного освещения Ижевска.
+				После завершения этих процедур в середине мая на улице Трудовая пчела и в микрорайоне Юровские дачи появится освещение.</a>
+				<img src="../img/2.jpg" class = "center-img">
+				<hr>
+				<a class = "Whose-photo">Фото: Крамарь Данил</a>
+				</section>
+			</div>
+		</div>
     </div>
-    <footer>
+	</div>
+	<footer>
         
         <div class="contact">
             <p>Вы вошли как Шелдон Купер</p>
@@ -129,6 +103,6 @@
             </div>
         </div>
     </footer>
-<script src="../js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
