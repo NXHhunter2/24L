@@ -148,6 +148,7 @@ header{
     justify-content: space-between;
 }
 
+
 .header_left_hand{
     height: 100px;
     display: flex;
@@ -180,7 +181,8 @@ header{
 /* Header inner parts */
 
 .logo{
-    height: 80px;
+	margin-top: 10px;
+    height: 110px;
     cursor: pointer;
 }
 .page_address{
@@ -190,7 +192,7 @@ header{
 }
 .avatar{
     height: 70px;
-    border-radius: 100px;
+    border-radius: 10px;
     transition: .5s;
 }
 .avatar:hover{
@@ -280,22 +282,32 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
+    width: 30%;
     height: auto;
 }
 
-/* Right half of container */
+/* Center of container */
 
 .second-module{
-     padding: 40px 40px 40px 20px;
+     padding: 40px 20px 40px 20px;
      margin-left: 0;
      height: auto;
-     width: 60%;
+     width: 35%;
      display: flex;
      flex-direction: column;
      align-items: center;
 }
 
+/* Right half of container */
+
+.third-module{
+     padding: 40px 40px 40px 20px;
+     height: auto;
+     width: 45%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
 /* Sections */
 
 section{
@@ -321,8 +333,32 @@ section div{
     height: auto;
 }
 
+/* Profile */
+
+.profile a {
+	font-size: 20px;
+    color: #677cff;
+}
+
+/* Score */
+
+.score a {
+	font-size: 20px;
+    color: #677cff;
+}
+
+/* Homework */
+
+.the_task {
+	font-style: italic;
+}
+
 /* News */
 
+.news {
+	text-align: right;
+	text-align: right;
+}
 .news img{
     aspect-ratio: 16 / 9;
     width: 100%;
@@ -354,6 +390,7 @@ section div{
 /* Schedule */
 
 .schedule a{
+     font-size: 20px;
      font-size: 20px;
      color: #677cff;
 }
@@ -431,4 +468,12 @@ footer a{
     font-weight: bold;
 }
 
+/* Links */
 
+.link {
+	transition: 0.7s;
+}
+.link:hover {
+	color: #1737ff;
+	background-color: transparent;
+}
