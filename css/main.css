@@ -268,6 +268,29 @@ header{
     cursor: pointer;
     height: auto;
 }
+
+.high-1{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.high-2{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    height: auto;
+    cursor: pointer;
+}
+
+.high-3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
 .high_images{
     font-size: 20px;
     color: rgba(0,0,0,.5);
